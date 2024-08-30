@@ -13,5 +13,5 @@ After much trial and tribulation I finished CSSE (Computer Science and Software 
 ## Video Of My Life
 <div style="margin-inline:auto; width: 498px">
     <iframe width="498" height="280" src="https://www.youtube.com/embed/muqDpZZ9mp8" title="My Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <summary style="margin-inline:auto">Video I made in Digital Media about My Life!</summary>
+    <p style="text-align: center; margin-bottom: auto">Video I made in Digital Media about My Life!</p>
 </div>
