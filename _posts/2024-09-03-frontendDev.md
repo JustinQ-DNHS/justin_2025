@@ -22,7 +22,7 @@ type: plans
     }
 </style>
 
-<div style="text-align:center">
+<div style="text-align:center;">
     <p class="text">THIS BUTTON DOES NOTHING?!!?!?!</p>
     <button onclick='window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")'>Click Me?</button>
 </div>

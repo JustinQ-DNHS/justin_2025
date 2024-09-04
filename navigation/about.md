@@ -11,7 +11,8 @@ My name is Justin Quach, I am a senior at Del Norte High School. I've been going
 After much trial and tribulation I finished CSSE (Computer Science and Software Engineering) and had a lot of fun, which led me to choose this class (Computer Sciecne Principles)
 
 ## Video Of My Life
-<div style="margin-inline:auto; width: 498px">
+<div style="margin-inline:auto; width: 1000px">
     <iframe width="498" height="280" src="https://www.youtube.com/embed/muqDpZZ9mp8" title="My Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <p style="text-align: center; margin-bottom: auto">Video I made in Digital Media about My Life!</p>
+    <iframe width="498" height="280" src="https://www.youtube.com/embed/EThTgQgyhms" title="My Life Project" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p style="text-align: center; margin-bottom: auto">2 videos I made in Digital Media about My Life!</p>
 </div>
