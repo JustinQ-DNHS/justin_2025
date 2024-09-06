@@ -38,6 +38,11 @@ I was born in San Diego, California so I am a born American. However I do intera
         <img src="{{site.baseurl}}/images/Flag_of_China.png" alt="Chinese Flag" width="230px" height="154px">
         <figcaption>Flag of China</figcaption>
     </figure>
+    <figure>
+        <img src="{{site.baseurl}}/images/Flag_of_Vietnam.png" alt="Vietnamese Flag" width="230px" height="154px">
+        <figcaption>Flag of Vietnam</figcaption>
+    </figure>
+    <p>Flags are pulled from Wikipedia</p>
 </div>
 
 <style>
