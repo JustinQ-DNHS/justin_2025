@@ -32,6 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  background-color: black;
 }
 
 #skip-to-content {
@@ -210,11 +211,13 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    // color: $section-headings-color;
+    color: #1b8016;
   }
 
   p {
     margin-bottom: 1em;
+    color: #dbdbdb;
   }
 
   code {
