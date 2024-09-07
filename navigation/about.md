@@ -50,6 +50,9 @@ I was born in San Diego, California so I am a born American. However I do intera
         margin-left: 15px;
         margin-right: 15px;
     }
+    figcaption {
+        color: #dbdbdb;
+    }
     figure {
         display:inline-block;
     }
