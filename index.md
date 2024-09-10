@@ -190,3 +190,5 @@ hide: true
 
 My journey starts here.
 
+<img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=2048,1365" alt="Code Code Code!">
+
