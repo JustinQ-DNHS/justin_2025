@@ -25,7 +25,7 @@ permalink: /about/
 
 ## More Information!
 
-I was born in San Diego, California so I am a born American. However I do interact with own culture, Chinese, quite a bit. My dad immigrated to America with my grandparentss from Vietnam during the Vietnam War, and met my mom while they were in college. 
+I was born in San Diego, California so I am a born-American (CBA). However I do interact with my own culture (Chinese) quite a bit. My dad immigrated to America with my grandparentss from Vietnam during the Vietnam War, and met my mom while they were in college. 
 
 <div style="text-align:center">
     <figure>
