@@ -5,6 +5,20 @@ description: Home Page
 image: /images/mario_animation.png
 hide: true
 ---
+<table>
+  <tr>
+    <td><a href="{{site.baseurl}}/toolVerify">Notebook!</a></td>
+    <td><a href="">Placeholder</a></td>
+    <td><a href="">Placeholder</a></td>
+  </tr>
+</table>
+
+My journey starts here.
+
+<div style="text-align:center">
+  <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=2048,1365" alt="Code Code Code!" width="500px" height="300px" style="display:inline">
+</div>
+
 
 <!-- Liquid:  statements -->
 <!--- Concatenation of site URL to frontmatter image  --->
@@ -187,8 +201,4 @@ hide: true
 
 </script>
 
-
-My journey starts here.
-
-<img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=2048,1365" alt="Code Code Code!">
 
