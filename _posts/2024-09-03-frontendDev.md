@@ -51,13 +51,3 @@ comments: true
     console.log(person)
     console.log(typeof(person) + "\n" + typeof(person.age) + "\n" + typeof(person.name))
 </script>
-
-<!-- Utterances hot fix -->
-<script src="https://utteranc.es/client.js"
-        repo="JustinQ-DNHS/justin_2025"
-        issue-term="title"
-        label="blogpost-comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
