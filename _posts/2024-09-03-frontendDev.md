@@ -2,7 +2,8 @@
 title: FrontEnd (Week 2)
 description: Completing my frontend work Assignment
 layout: post
-type: plans
+type: hacks
+comments: True
 ---
 <style>
     .text {
