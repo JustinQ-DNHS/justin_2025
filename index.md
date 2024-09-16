@@ -7,9 +7,9 @@ hide: true
 ---
 <table>
   <tr>
-    <td><a href="{{site.baseurl}}/toolVerify">Notebook!</a></td>
-    <td><a href="">Placeholder</a></td>
-    <td><a href="">Placeholder</a></td>
+    <td><a href="{{site.baseurl}}/toolVerify">Tool Verify Notebook!</a></td>
+    <td><a href="{{site.baseurl}}/javaScript">Javascript Notebook!</a></td>
+    <td><a href="{{site.baseurl}}/python">Python Notebook!</a></td>
   </tr>
 </table>
 
