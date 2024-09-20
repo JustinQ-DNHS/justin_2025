@@ -7,7 +7,7 @@ comments: true
 ---
 <style>
     .menu {
-        height: 200px;
+        height: 400px;
         width: 80%;
         background-color: #3f4247;
         margin-left: auto;
@@ -52,10 +52,14 @@ comments: true
     .item:active {
         background-color: black;
     }
+    .cookie:active {
+        width: 80%;
+        height: 80%;
+    }
 </style>
 
 <div style="text-align:center;">
-    <img src="{{site.baseurl}}/images/cookieClicker.png" alt="Cookie Should be Here" onclick="clickCookie(1);">
+    <img src="{{site.baseurl}}/images/cookieClicker.png" alt="Cookie Should be Here" onclick="clickCookie(1, true);" class="cookie">
 </div>
 <!-- Important Information -->
 <div id="menu" class="menu">
@@ -66,7 +70,7 @@ comments: true
     </div>
     <!-- Store -->
     <div class="store">
-        <div class="item" id="cursor" onclick="if (cookiesClicked > 100) {cursorsOwned++; cookiesClicked-=100;}">
+        <div class="item" id="cursor" onclick="if (cookiesClicked > 100) {cursorsOwned++; cookiesClicked-=100; cPerSecond++;}">
             <p style="color:black">Cursor</p>
             <p style="color:black; font-size:14px">100 Cookies</p>
         </div>
@@ -74,24 +78,39 @@ comments: true
 </div>
 
 <script>
+    // All sound file sources
+    const cookieClickSound = [
+        new Audio('{{site.baseurl}}/audio/cookieClick1.mp3'), 
+        new Audio('{{site.baseurl}}/audio/cookieClick2.mp3'), 
+        new Audio('{{site.baseurl}}/audio/cookieClick3.mp3'), 
+        new Audio('{{site.baseurl}}/audio/cookieClick4.mp3')
+    ]
+
+    // important reference variables
+    let cPerSecond = 0;
     let cursorsOwned = 0;
     let cookiesClicked = 0;
     let totalCookiesClicked = 0;
     let cookiesClickedMenu = document.getElementById("cookiesClickedMenu");
     let totalCookiesClickedMenu = document.getElementById("totalCookiesClickedMenu");
+    let cookiesPerSecondMenu = document.getElementById("cookiesPerSecond");
     
-    function clickCookie(cookiesPerSecond) {
+    function clickCookie(cookiesPerSecond, playSound = false) {
         // Increases cookies clicked count
         cookiesClicked += cookiesPerSecond;
         totalCookiesClicked += cookiesPerSecond;
+        cookiesPerSecondMenu.innerHTML = "CPS: " + cPerSecond;
         // Updates counter
         cookiesClickedMenu.innerHTML = "Cookies: " + cookiesClicked;
         totalCookiesClickedMenu.innerHTML = "Total Cookies: " + totalCookiesClicked;
+        if (playSound) {
+            cookieClickSound[Math.floor((Math.random() * 3))].play();
+        }
     }
     // Function to generate cookies depending on number cursors owned
     function cursorCookies(x) {
         clickCookie(x);
-        console.log(x);
+        // console.log(x);
         setTimeout(() => cursorCookies(cursorsOwned), 1000); // Pass a function reference with setTimeout
     }
 
