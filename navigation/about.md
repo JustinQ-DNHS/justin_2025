@@ -3,6 +3,7 @@ layout: page
 title: About Me
 description: A page describing who I am, as the person who works on the repository while at Del Norte High School
 permalink: /about/
+comments: true
 ---
 
 ## Who Am I?
