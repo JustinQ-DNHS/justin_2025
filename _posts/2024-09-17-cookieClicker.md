@@ -70,8 +70,12 @@ comments: true
     </div>
     <!-- Store -->
     <div class="store">
-        <div class="item" id="cursor" onclick="if (cookiesClicked > 100) {cursorsOwned++; cookiesClicked-=100; cPerSecond++;}">
+        <div class="item" id="cursor" onclick="if (cookiesClicked >= 100) {cursorsOwned++; cookiesClicked-=100; cPerSecond++;}">
             <p style="color:black">Cursor</p>
+            <p style="color:black; font-size:14px">100 Cookies</p>
+        </div>
+        <div class="item" id="grandma" onclick="if (cookiesClicked >= 500) {grandmasOwned++; cookiesClicked-=500; cPerSecond+=5}">
+            <p style="color:black">Grandma</p>
             <p style="color:black; font-size:14px">100 Cookies</p>
         </div>
     </div>
@@ -89,6 +93,7 @@ comments: true
     // important reference variables
     let cPerSecond = 0;
     let cursorsOwned = 0;
+    let grandmasOwned =
     let cookiesClicked = 0;
     let totalCookiesClicked = 0;
     let cookiesClickedMenu = document.getElementById("cookiesClickedMenu");
@@ -111,7 +116,7 @@ comments: true
     function cursorCookies(x) {
         clickCookie(x);
         // console.log(x);
-        setTimeout(() => cursorCookies(cursorsOwned), 1000); // Pass a function reference with setTimeout
+        setTimeout(() => cursorCookies(cPerSecond), 1000); // Pass a function reference with setTimeout
     }
 
     // Initial call of loop to generate cookies
