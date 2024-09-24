@@ -93,7 +93,7 @@ comments: true
     // important reference variables
     let cPerSecond = 0;
     let cursorsOwned = 0;
-    let grandmasOwned =
+    let grandmasOwned = 0;
     let cookiesClicked = 0;
     let totalCookiesClicked = 0;
     let cookiesClickedMenu = document.getElementById("cookiesClickedMenu");
