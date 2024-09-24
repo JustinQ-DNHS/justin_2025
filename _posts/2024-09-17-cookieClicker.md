@@ -116,7 +116,8 @@ comments: true
     function cursorCookies(x) {
         clickCookie(x);
         // console.log(x);
-        setTimeout(() => cursorCookies(cPerSecond), 1000); // Pass a function reference with setTimeout
+        // This is broken, does not add grandmas. Needs to be fixed
+        setTimeout(() => cursorCookies(cursorsOwned), 1000); // Pass a function reference with setTimeout
     }
 
     // Initial call of loop to generate cookies
