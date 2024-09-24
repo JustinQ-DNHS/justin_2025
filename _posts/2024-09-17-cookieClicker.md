@@ -76,7 +76,7 @@ comments: true
         </div>
         <div class="item" id="grandma" onclick="if (cookiesClicked >= 500) {grandmasOwned++; cookiesClicked-=500; cPerSecond+=5}">
             <p style="color:black">Grandma</p>
-            <p style="color:black; font-size:14px">100 Cookies</p>
+            <p style="color:black; font-size:14px">500 Cookies</p>
         </div>
     </div>
 </div>
