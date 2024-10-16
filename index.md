@@ -5,15 +5,13 @@ description: Home Page
 image: /images/mario_animation.png
 hide: true
 ---
-<table>
+<div><table style="margin-left:auto; margin-right:auto; width:80%;">
   <tr>
     <td><a href="{{site.baseurl}}/toolVerify">Tool Verify Notebook!</a></td>
     <td><a href="{{site.baseurl}}/javaScript">Javascript Notebook!</a></td>
     <td><a href="{{site.baseurl}}/python">Python Notebook!</a></td>
   </tr>
-</table>
-
-My journey starts here.
+</table></div>
 
 <div style="text-align:center">
   <img src="https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=2048,1365" alt="Code Code Code!" width="500px" height="300px" style="display:inline">
