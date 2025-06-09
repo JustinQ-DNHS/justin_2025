@@ -10,7 +10,7 @@ date: 2025-06-09
 Hello, my name is Justin Quach, and I am passionate about gaming, coding, and puzzles. Coding allows me to bring these interests to life by solving real-world problems through technology. My journey in programming has centered around creating tools and platforms that are both meaningful and impactful.
 
 # Education
-Del Norte High School
+Del Norte High School | 2021 - 2025
 ## Technical Classes
 - AP Computer Science Principles
 - Robotics
