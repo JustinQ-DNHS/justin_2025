@@ -9,6 +9,13 @@ date: 2025-06-09
 
 Hello, my name is Justin Quach, and I am passionate about gaming, coding, and puzzles. Coding allows me to bring these interests to life by solving real-world problems through technology. My journey in programming has centered around creating tools and platforms that are both meaningful and impactful.
 
+# Education
+Del Norte High School
+## Technical Classes
+- AP Computer Science Principles
+- Robotics
+- Computer Science and Software Engineering
+
 ## Overview of Projects & Team Collaboration
 
 Over the past year, I've worked on several team-based projects that taught me how to balance leadership and collaboration. Some highlights include:
@@ -31,7 +38,7 @@ Artifacts:
 - [Binary Overflow Kanban Board](https://github.com/users/Voyager162/projects/)
 - [Bitshift: 0101 Kanban Board](https://github.com/users/Frogpants/projects/1)
 
-
+![Image of Commit history]({{site.baseurl}}/images/commit.png)
 
 ## Full Stack Skill Set Introduction
 
